@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C21EC9619B80A37007D6FE1 /* TapkuLibrary.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6C21EC9219B80A37007D6FE1 /* TapkuLibrary.bundle */; };
+		6C21EC9F19B80A4C007D6FE1 /* libTapkuLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C21EC9A19B80A37007D6FE1 /* libTapkuLibrary.a */; };
 		6C32BBCB19B1DFBC0055DC72 /* iphone-storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C32BBCA19B1DFBC0055DC72 /* iphone-storyboard.storyboard */; };
 		6C32BBD319B1F6CC0055DC72 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C32BBD219B1F6CC0055DC72 /* logo.png */; };
 		6C32BBD619B20B230055DC72 /* UIMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C32BBD519B20B230055DC72 /* UIMenuViewController.m */; };
@@ -41,6 +43,9 @@
 		6C50220C19B1A87C00D5192F /* Social_StudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C50220B19B1A87C00D5192F /* Social_StudyTests.m */; };
 		6C50221C19B1ACD700D5192F /* UISidebarMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C50221B19B1ACD700D5192F /* UISidebarMenuViewController.m */; };
 		6C50222119B1B69A00D5192F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C50222019B1B69A00D5192F /* LoginViewController.m */; };
+		6C59BCBC19B6E40400488C27 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C59BCBB19B6E40400488C27 /* QuartzCore.framework */; };
+		6C59BCBE19B6E41200488C27 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C59BCBD19B6E41200488C27 /* MapKit.framework */; };
+		6CCDF21519B6AF6300C3039C /* UICalendarDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCDF21419B6AF6300C3039C /* UICalendarDayViewController.m */; };
 		6CFAFE6919B4F62C000269A3 /* NSArgumentValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFAFE6819B4F62C000269A3 /* NSArgumentValidator.m */; };
 		6CFAFE6C19B51856000269A3 /* UIValidatedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFAFE6B19B51856000269A3 /* UIValidatedTextField.m */; };
 		6CFAFE7019B51C42000269A3 /* NSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFAFE6F19B51C42000269A3 /* NSConstants.m */; };
@@ -62,6 +67,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		6C21EC9919B80A37007D6FE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C21EC9319B80A37007D6FE1 /* TapkuLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = TapkuLibrary;
+		};
+		6C21EC9B19B80A37007D6FE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C21EC9319B80A37007D6FE1 /* TapkuLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3B45DDF1134C736600D24C1A;
+			remoteInfo = LogicTests;
+		};
+		6C21EC9D19B80A42007D6FE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C21EC9319B80A37007D6FE1 /* TapkuLibrary.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = TapkuLibrary;
+		};
 		6C50220319B1A87C00D5192F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6C5021D519B1A87C00D5192F /* Project object */;
@@ -72,6 +98,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C21EC9219B80A37007D6FE1 /* TapkuLibrary.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TapkuLibrary.bundle; path = Dependencies/tapkulibrary/src/TapkuLibrary.bundle; sourceTree = "<group>"; };
+		6C21EC9319B80A37007D6FE1 /* TapkuLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TapkuLibrary.xcodeproj; path = Dependencies/tapkulibrary/src/TapkuLibrary.xcodeproj; sourceTree = "<group>"; };
 		6C32BBCA19B1DFBC0055DC72 /* iphone-storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "iphone-storyboard.storyboard"; sourceTree = "<group>"; };
 		6C32BBD219B1F6CC0055DC72 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		6C32BBD419B20B230055DC72 /* UIMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMenuViewController.h; sourceTree = "<group>"; };
@@ -115,6 +143,10 @@
 		6C50221B19B1ACD700D5192F /* UISidebarMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISidebarMenuViewController.m; sourceTree = "<group>"; };
 		6C50221F19B1B69A00D5192F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		6C50222019B1B69A00D5192F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		6C59BCBB19B6E40400488C27 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6C59BCBD19B6E41200488C27 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6CCDF21319B6AF6300C3039C /* UICalendarDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICalendarDayViewController.h; sourceTree = "<group>"; };
+		6CCDF21419B6AF6300C3039C /* UICalendarDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICalendarDayViewController.m; sourceTree = "<group>"; };
 		6CFAFE6719B4F62C000269A3 /* NSArgumentValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArgumentValidator.h; sourceTree = "<group>"; };
 		6CFAFE6819B4F62C000269A3 /* NSArgumentValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArgumentValidator.m; sourceTree = "<group>"; };
 		6CFAFE6A19B51856000269A3 /* UIValidatedTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIValidatedTextField.h; sourceTree = "<group>"; };
@@ -158,6 +190,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C21EC9F19B80A4C007D6FE1 /* libTapkuLibrary.a in Frameworks */,
+				6C59BCBE19B6E41200488C27 /* MapKit.framework in Frameworks */,
+				6C59BCBC19B6E40400488C27 /* QuartzCore.framework in Frameworks */,
 				6C5021E319B1A87C00D5192F /* CoreGraphics.framework in Frameworks */,
 				6C5021E719B1A87C00D5192F /* CoreData.framework in Frameworks */,
 				6C5021E519B1A87C00D5192F /* UIKit.framework in Frameworks */,
@@ -179,6 +214,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C21EC9419B80A37007D6FE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C21EC9A19B80A37007D6FE1 /* libTapkuLibrary.a */,
+				6C21EC9C19B80A37007D6FE1 /* LogicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C21ECA119B80C32007D6FE1 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				6C21EC9219B80A37007D6FE1 /* TapkuLibrary.bundle */,
+				6C21EC9319B80A37007D6FE1 /* TapkuLibrary.xcodeproj */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
 		6C32BBDA19B20CD00055DC72 /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +259,7 @@
 				6C50220519B1A87C00D5192F /* Social StudyTests */,
 				6C5021DF19B1A87C00D5192F /* Frameworks */,
 				6C5021DE19B1A87C00D5192F /* Products */,
+				6C21ECA119B80C32007D6FE1 /* Dependencies */,
 			);
 			sourceTree = "<group>";
 		};
@@ -221,6 +275,8 @@
 		6C5021DF19B1A87C00D5192F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6C59BCBD19B6E41200488C27 /* MapKit.framework */,
+				6C59BCBB19B6E40400488C27 /* QuartzCore.framework */,
 				6C5021E019B1A87C00D5192F /* Foundation.framework */,
 				6C5021E219B1A87C00D5192F /* CoreGraphics.framework */,
 				6C5021E419B1A87C00D5192F /* UIKit.framework */,
@@ -297,6 +353,7 @@
 		6C50221919B1A9D700D5192F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6C59BCC119B6E55000488C27 /* Calendar */,
 				6C32BBFB19B432EC0055DC72 /* Register */,
 				6C32BBDA19B20CD00055DC72 /* Home */,
 				6C50221E19B1B64900D5192F /* Login */,
@@ -343,6 +400,15 @@
 				6C32BBD219B1F6CC0055DC72 /* logo.png */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		6C59BCC119B6E55000488C27 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				6CCDF21319B6AF6300C3039C /* UICalendarDayViewController.h */,
+				6CCDF21419B6AF6300C3039C /* UICalendarDayViewController.m */,
+			);
+			name = Calendar;
 			sourceTree = "<group>";
 		};
 		6CFAFE6619B4F5EF000269A3 /* Argument Validators */ = {
@@ -438,6 +504,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				6C21EC9E19B80A42007D6FE1 /* PBXTargetDependency */,
 			);
 			name = "Social Study";
 			productName = "Social Study";
@@ -486,6 +553,12 @@
 			mainGroup = 6C5021D419B1A87C00D5192F;
 			productRefGroup = 6C5021DE19B1A87C00D5192F /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6C21EC9419B80A37007D6FE1 /* Products */;
+					ProjectRef = 6C21EC9319B80A37007D6FE1 /* TapkuLibrary.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6C5021DC19B1A87C00D5192F /* Social Study */,
@@ -493,6 +566,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6C21EC9A19B80A37007D6FE1 /* libTapkuLibrary.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTapkuLibrary.a;
+			remoteRef = 6C21EC9919B80A37007D6FE1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6C21EC9C19B80A37007D6FE1 /* LogicTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LogicTests.xctest;
+			remoteRef = 6C21EC9B19B80A37007D6FE1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6C5021DB19B1A87C00D5192F /* Resources */ = {
@@ -507,6 +597,7 @@
 				6C32BBEF19B2227D0055DC72 /* messages.png in Resources */,
 				6C32BBE419B216CE0055DC72 /* calendar.png in Resources */,
 				6C32BBDC19B20F260055DC72 /* menu.png in Resources */,
+				6C21EC9619B80A37007D6FE1 /* TapkuLibrary.bundle in Resources */,
 				6C32BBCB19B1DFBC0055DC72 /* iphone-storyboard.storyboard in Resources */,
 				6C32BBF019B2227D0055DC72 /* settings.png in Resources */,
 				6C5021ED19B1A87C00D5192F /* InfoPlist.strings in Resources */,
@@ -551,6 +642,7 @@
 				6CFAFEA419B57A8E000269A3 /* SBJsonWriter.m in Sources */,
 				6CFAFEA319B57A8E000269A3 /* SBJsonUTF8Stream.m in Sources */,
 				6CFAFE9A19B57A8E000269A3 /* SBJsonParser.m in Sources */,
+				6CCDF21519B6AF6300C3039C /* UICalendarDayViewController.m in Sources */,
 				6C32BBD919B20CCB0055DC72 /* UIHomeViewController.m in Sources */,
 				6CFAFE9B19B57A8E000269A3 /* SBJsonStreamParser.m in Sources */,
 				6C50222119B1B69A00D5192F /* LoginViewController.m in Sources */,
@@ -573,6 +665,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		6C21EC9E19B80A42007D6FE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TapkuLibrary;
+			targetProxy = 6C21EC9D19B80A42007D6FE1 /* PBXContainerItemProxy */;
+		};
 		6C50220419B1A87C00D5192F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6C5021DC19B1A87C00D5192F /* Social Study */;
@@ -632,8 +729,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					./Dependencies/tapkulibrary/src,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -665,7 +771,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					./Dependencies/tapkulibrary/src,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -679,7 +794,16 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Social Study/Social Study-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					./Dependencies/tapkulibrary/src,
+				);
 				INFOPLIST_FILE = "Social Study/Social Study-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -692,7 +816,16 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Social Study/Social Study-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					./Dependencies/tapkulibrary/src,
+				);
 				INFOPLIST_FILE = "Social Study/Social Study-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

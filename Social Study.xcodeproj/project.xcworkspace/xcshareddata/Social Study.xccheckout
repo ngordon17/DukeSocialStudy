@@ -12,6 +12,8 @@
 	<dict>
 		<key>8BC04AD7-0CFC-4EC6-A415-6FE4C14F2D91</key>
 		<string>https://github.com/ngordon17/DukeSocialStudy.git</string>
+		<key>CBA279FD-6516-448F-9170-CBF15FFBD9CC</key>
+		<string>https://github.com/devinross/tapkulibrary</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Social Study.xcodeproj/project.xcworkspace</string>
@@ -19,6 +21,8 @@
 	<dict>
 		<key>8BC04AD7-0CFC-4EC6-A415-6FE4C14F2D91</key>
 		<string>../..</string>
+		<key>CBA279FD-6516-448F-9170-CBF15FFBD9CC</key>
+		<string>../../../../tapku/tapkulibrary</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/ngordon17/DukeSocialStudy.git</string>
@@ -35,6 +39,14 @@
 			<string>8BC04AD7-0CFC-4EC6-A415-6FE4C14F2D91</string>
 			<key>IDESourceControlWCCName</key>
 			<string>DukeSocialStudy</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CBA279FD-6516-448F-9170-CBF15FFBD9CC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>tapkulibrary</string>
 		</dict>
 	</array>
 </dict>

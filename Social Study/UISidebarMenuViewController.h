@@ -284,7 +284,6 @@ extern NSString* const SWSegueRightIdentifier; // this is @"sw_right"
 @end
 
 //#pragma mark - SWRevealViewControllerSegue (DEPRECATED)
-//
 //@interface SWRevealViewControllerSegue : UIStoryboardSegue     // DEPRECATED: USE SWRevealViewControllerSegueSetController instead
 //@property (nonatomic, strong) void(^performBlock)( SWRevealViewControllerSegue* segue, UIViewController* svc, UIViewController* dvc );
 //@end

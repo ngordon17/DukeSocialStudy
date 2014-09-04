@@ -8,6 +8,8 @@
 
 #import "UIMenuViewController.h"
 #import "UISidebarMenuViewController.h"
+#import "UICalendarDayViewController.h"
+#import "UIHomeViewController.h"
 
 @interface UIMenuViewController ()
 
@@ -51,6 +53,26 @@
         cell.backgroundColor = BACKGROUND_COLOR;
     }
     return cell;
+}
+
+- (void) prepareForSegue: (UIStoryboardSegue *) segue sender: (id) sender {
+    
+    // Set the photo if it navigates to the PhotoView
+    if ([segue.identifier isEqualToString:@"calendar"]) {
+        //UICalendarDayViewController *controller = (UICalendarDayViewController *)segue.destinationViewController;
+    
+    }
+    /*
+    if ( [segue isKindOfClass: [UISidebarMenuViewControllerSegueSetController class]] ) {
+        UISidebarMenuViewControllerSegueSetController *setSegue =(UISidebarMenuViewControllerSegueSetController *) segue;
+        
+        setSegue.performBlock = ^(UISidebarMenuViewControllerSegueSetController* rvc_segue, UIViewController* svc, UIViewController* dvc) {
+            
+            UINavigationController* navController = (UINavigationController*)self.revealViewController.frontViewController;
+            [navController setViewControllers: @[dvc] animated: NO ];
+            [self.revealViewController setFrontViewPosition: FrontViewPositionLeft animated: YES];
+        };
+    }*/
 }
 
 @end

@@ -7,6 +7,7 @@
 //
 //  Adapted from https://github.com/John-Lluch/SWRevealViewController
 //  Refer to http://www.appcoda.com/ios-programming-sidebar-navigation-menu/ for tutorial
+//  http://www.raywenderlich.com/32054/how-to-create-a-slide-out-navigation-like-facebook-and-path
 //
 
 #import <QuartzCore/QuartzCore.h>
